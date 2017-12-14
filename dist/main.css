@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+  background-image: url(img/afe9e182419c3b9f463157122fe7d5c5.jpg);
+  background-size: cover;
+  font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  height: 100%; }
+  html main {
+    display: flex; }
+  html header {
+    display: flex;
+    height: 111px;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px; }
+    html header img:nth-child(1) {
+      margin-right: 24px; }
+
+.column {
+  width: 50%; }
+
+h1 {
+  text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+  color: #ffffff;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center; }
+
+p {
+  font-size: 17px; }
+
+textarea {
+  font-size: 16px;
+  resize: none;
+  border-radius: 5px;
+  width: 322px;
+  height: 215px;
+  border: 1px solid #afafaf;
+  background-position: 16px 50%;
+  margin-left: 23px;
+  margin-top: 18px;
+  padding: 15px 0 0 15px; }
+  textarea::placeholder {
+    color: #afafaf; }
+
+input {
+  font-size: 16px;
+  margin-top: 21px;
+  margin-left: 23px;
+  width: 257px;
+  height: 39px;
+  border-radius: 5px;
+  border: 1px solid #afafaf;
+  background-repeat: no-repeat;
+  background-position: 16px 50%; }
+  input::placeholder {
+    color: #afafaf; }
+
+button {
+  border-radius: 5px;
+  background-color: #93d02b;
+  text-shadow: 1px 1px 0 #51850e;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  border: none; }
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px); }
+  button:hover {
+    background-color: #87be27; }
+
+input[type="checkbox"] {
+  width: 23px;
+  margin-top: 0; }
+
+input[placeholder="Username"] {
+  background-image: url(img/icons/1b9eb1fe2c4d9f60aae35e4398edeacc.png); }
+
+input[placeholder="Password"],
+input[placeholder="Confirm Password"] {
+  background-image: url(img/icons/8362de122155a0a26afb6b892961bb86.png); }
+
+input[placeholder="Email"] {
+  background-image: url(img/icons/0e1b1377cf597b590317031da4a9d1f0.png); }
+
+#register-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 40px; }
+  #register-form #register-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    width: 420px;
+    height: 481px;
+    justify-content: center;
+    align-items: center; }
+    #register-form #register-container form {
+      background-color: #f4f4f4;
+      width: 382px;
+      height: 443px; }
+      #register-form #register-container form input:first-of-type {
+        margin-top: 22px; }
+      #register-form #register-container form input:nth-child(7) {
+        margin-top: 23px; }
+      #register-form #register-container form select {
+        margin-left: 23px;
+        width: 338px;
+        height: 39px;
+        margin-top: 23px;
+        border-radius: 5px;
+        border: 1px solid #afafaf;
+        padding-left: 81px;
+        background-image: url(img/icons/97b4e9e65d5baeff6a6044efa20043cc.png);
+        background-repeat: no-repeat;
+        background-position: 16px 50%;
+        color: #afafaf;
+        font-size: 16px; }
+      #register-form #register-container form button {
+        margin-top: 0;
+        width: 338px;
+        height: 48px;
+        margin-left: 24px; }
+      #register-form #register-container form p {
+        text-align: left;
+        margin-top: 19px; }
+      #register-form #register-container form .squaredOne {
+        float: left;
+        margin-top: 8px;
+        margin-right: 14px; }
+
+#send-email {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center; }
+  #send-email #send-email-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    width: 420px;
+    height: 536px;
+    justify-content: center;
+    align-items: center; }
+    #send-email #send-email-container form {
+      background-color: #f4f4f4;
+      width: 382px;
+      height: 496px; }
+      #send-email #send-email-container form input:first-of-type {
+        margin-top: 22px; }
+      #send-email #send-email-container form .squaredOne {
+        margin-right: 14px;
+        float: left;
+        margin-top: 4px; }
+      #send-email #send-email-container form p {
+        margin-top: 15px;
+        text-align: left; }
+      #send-email #send-email-container form button {
+        height: 48px;
+        width: 339px;
+        margin-left: 24px; }
+
+#sign-in-form {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center; }
+  #sign-in-form #sign-in-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    width: 420px;
+    height: 260px;
+    justify-content: center;
+    align-items: center; }
+    #sign-in-form #sign-in-container form {
+      background-color: #f4f4f4;
+      width: 382px;
+      height: 218px; }
+      #sign-in-form #sign-in-container form input:first-of-type {
+        margin-top: 30px; }
+      #sign-in-form #sign-in-container form p {
+        margin-right: 38px;
+        float: left;
+        margin-top: 32px; }
+      #sign-in-form #sign-in-container form button {
+        width: 139px;
+        margin-top: 21px;
+        height: 41px; }

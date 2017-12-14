@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercise Weekly Dev Challange Day one</title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+  <header>
+    <img src="./img/logo-2.png" alt="">
+    <img src="./img/logo-1.png" alt="">
+  </header>
+
+  <main>
+
+    <!-- column left -->
+    <div class="column">
+
+      <!-- REGISTER FORM -->
+
+      <h1>Register Form</h1>
+      <div id="register-form">
+        <div id="register-container">
+          <form id="register" action="index.html" method="post">
+            <input style="padding-left: 81px;" placeholder="Username" type="text" name="" value=""><br>
+            <input style="padding-left: 81px;" placeholder="Password" type="text" name="" value=""><br>
+            <input style="padding-left: 81px;" placeholder="Confirm Password" type="text" name="" value=""><br>
+            <input style="padding-left: 81px;" placeholder="Email" type="email" name="" value=""><br>
+            <select name="location">
+            <option selected="selected">Your location</option>
+            <option>Poland</option>
+            <option>Germany</option>
+            <option>Czech Republic</option>
+            <option>Ukraine</option>
+          </select><br>
+            <input class="squaredOne" type="checkbox" name="" value="1">
+            <p>I have read and accept the terms of use.</p><br>
+            <button type="button" name="button">Sign Up</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- SEND MAIL FORM -->
+      <h1>Send Email</h1>
+      <div id="send-email">
+
+        <div id="send-email-container">
+          <form id="send" action="index.html" method="post">
+            <input style="padding-left: 81px;" placeholder="Username" type="text" name="" value=""><br>
+            <input style="padding-left: 81px;" placeholder="Password" type="text" name="" value=""><br>
+            <textarea placeholder="Type your message..."></textarea><br>
+            <input class="squaredOne" type="checkbox" name="" value="1">
+            <p>Send a copy to my Email</p><br>
+            <button type="button" name="button" >Send Email</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- column right -->
+
+    <div class="column">
+
+      <!-- SIGN IN FORM -->
+      <h1>Sign In Form</h1>
+      <div id="sign-in-form">
+        <div id="sign-in-container">
+          <form id="sign-in" action="index.html" method="post">
+            <input style="padding-left: 81px;" placeholder="Username" type="text" name="" value="">
+            <input style="padding-left: 81px;" placeholder="Password" type="text" name="" value="">
+            <input id="squaredOne" type="checkbox" name="" value="1" style="margin-right:15px; margin-top: 21px; float: left;">
+            <p>Remember me</p>
+            <button type="button" name="button">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+<script type="text/javascript" src="app.bundle.js"></script></body>
+
+</html>
